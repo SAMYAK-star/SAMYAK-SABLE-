@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KING SAMYAK - Business Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KING SAMYAK</h1>
+        <nav>
+            <ul>
+                <li><a href="#top-businessmen">Top Businessmen</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="top-businessmen">
+        <h2>Top Businessmen</h2>
+        <div class="businessman">
+            <img src="businessman1.jpg" alt="Businessman 1">
+            <h3>John Doe</h3>
+            <p class="highlight">Income Sources: Investments, Real Estate</p>
+            <p>John is a successful entrepreneur known for his innovative approach to business and investment strategies.</p>
+        </div>
+        <div class="businessman">
+            <img src="businessman2.jpg" alt="Businessman 2">
+            <h3>Jane Smith</h3>
+            <p class="highlight">Income Sources: E-commerce, Consulting</p>
+            <p>Jane has built a multi-million dollar e-commerce business and offers consulting services to startups.</p>
+        </div>
+        <div class="businessman">
+            <img src="businessman3.jpg" alt="Businessman 3">
+            <h3>Michael Johnson</h3>
+            <p class="highlight">Income Sources: Technology, Investments</p>
+            <p>Michael is a tech mogul who has successfully launched several startups and invested in numerous ventures.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>KING SAMYAK is dedicated to showcasing successful business figures and their contributions to the industry. Our mission is to inspire and educate aspiring entrepreneurs.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 KING SAMYAK. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.businessman {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.businessman img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position
